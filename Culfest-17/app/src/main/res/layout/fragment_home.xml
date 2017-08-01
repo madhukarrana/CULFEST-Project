@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_3"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ViewFlipper
+            android:id="@+id/viewflipper"
+            android:padding="3dp"
+            android:background="#000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoStart="true"
+            android:flipInterval="5000" >
+
+            <ImageView
+                android:id="@+id/one"
+                android:layout_width="match_parent"
+                android:layout_height="275dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/h1"
+                 />
+
+            <ImageView
+                android:id="@+id/two"
+                android:layout_width="match_parent"
+                android:layout_height="275dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/h2"
+                 />
+
+            <ImageView
+                android:id="@+id/three"
+                android:layout_width="match_parent"
+                android:layout_height="275dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/h3"
+                 />
+
+            <ImageView
+                android:id="@+id/four"
+                android:layout_width="match_parent"
+                android:layout_height="275dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/h4" />
+
+            <ImageView
+                android:id="@+id/five"
+                android:layout_width="match_parent"
+                android:layout_height="275dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/h5"
+                 />
+        </ViewFlipper>
+
+        <include android:id="@+id/about"
+            layout="@layout/card_home"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="281dp"
+        android:paddingTop="220dp">
+        <include layout="@layout/timer_layout"/>
+
+    </LinearLayout>
+    </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ExpandableListView
+        android:id="@+id/event_exp_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tool_bar_intent"
+        android:divider="#f4e8fa"
+        android:dividerHeight="0.1dp"
+        android:indicatorLeft="?android:attr/expandableListPreferredItemIndicatorLeft">
+    </ExpandableListView>
+
+</LinearLayout>

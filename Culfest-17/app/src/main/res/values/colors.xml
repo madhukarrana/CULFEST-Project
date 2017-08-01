@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#245b5b</color>
+    <color name="colorPrimaryDark">#0097a7</color>
+    <color name="colorAccent">#e90712</color>
+
+    <color name="subEventStatusBarColor">#000000</color>
+
+    <color name="bg_login">#26ae90</color>
+    <color name="bg_register">#2e3237</color>
+    <color name="bg_main">#428bca</color>
+    <color name="white">#ffffff</color>
+    <color name="input_login">#222222</color>
+    <color name="input_login_hint">#999999</color>
+    <color name="input_register">#888888</color>
+    <color name="input_register_bg">#3b4148</color>
+    <color name="input_register_hint">#5e6266</color>
+    <color name="btn_login">#26ae90</color>
+    <color name="btn_login_bg">#eceef1</color>
+    <color name="lbl_name">#333333</color>
+    <color name="btn_logut_bg">#ff6861</color>
+
+
+    <color name="events">#bf5a4d</color>
+    <color name="events_status">#c44231</color>
+
+    <color name="notifications">#7a787c</color>
+    <color name="notification_status">#FF545156</color>
+
+    <color name="schedule">#17abc6</color>
+    <color name="schedule_status">#FF1194AC</color>
+
+    <color name="maps">#FF2A5600</color>
+    <color name="maps_status">#FF1B3601</color>
+
+    <color name="sponsors">#FFCF5529</color>
+    <color name="sponsors_status">#FFC1471B</color>
+
+    <color name="team">#FF023568</color>
+    <color name="team_status">#FF022A51</color>
+
+    <color name="developers">#FFDF2329</color>
+    <color name="developers_status">#FFC22025</color>
+
+    <color name="home">#a49b94</color>
+    <color name="home_status">#8b837e</color>
+
+
+    <color name="global_color_primary_light">#f5f5f5</color>
+    <color name="global_color_green_primary">#4caf50</color>
+    <color name="global_color_green_primary_light">#c8e6c9</color>
+    <color name="global_color_green_primary_dark">#388e3c</color>
+    <color name="global_color_green_accent">#ffc107</color>
+    <color name="global_color_green_control_activated">#ffc107</color>
+
+    <color name="colorPrimaryText">#ffffff</color>
+    <color name="WindowBackground">#666</color>
+    <color name="navigationBarColor">#ddd</color>
+    <color name="colorPrimaryLight">#D1C4E9</color>
+    <color name="colorHighlight">#B6B6B6</color>
+    <color name="colorSecondaryText">#727272</color>
+    <color name="colorTitle">#fbfbfe</color>
+    <color name="backButtonColor">#fbfbfe</color>
+    <color name="grey300">#E0E0E0</color>
+    <color name="color_white">#fefefe</color>
+    <color name="fab_background">#9df8bd</color>
+
+    <color name="timer_circle">#2ebfca</color>
+    <color name="distortion">#f27460</color>
+    <color name="verve">#fc385c</color>
+    <color name="synchro">#d16457</color>
+    <color name="journalism">#31779a</color>
+    <color name="halla_bol">#057a15</color>
+    <color name="poshak">#ae733c</color>
+
+    <color name="clay_doh">#0e678b</color>
+    <color name="face_painting">#245b5b</color>
+    <color name="rangoli">#b29e38</color>
+    <color name="tshirt_painting">#ea130b</color>
+    <color name="triathlon">#6e8a0a</color>
+    <color name="alsculpt">#0d4f05</color>
+</resources>

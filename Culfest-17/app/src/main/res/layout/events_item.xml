@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.CardView
+        android:layout_margin="5dp"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardBackgroundColor="@color/events">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:id="@+id/main_event_image"
+                android:layout_width="wrap_content"
+                android:scaleType="centerCrop"
+                android:layout_height="95dp"
+                android:src="@drawable/alsculpt2"/>
+
+            <TextView
+                android:id="@+id/main_event_name"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_width="170dp"
+                android:textSize="17dp"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:layout_height="40dp"
+                android:text="fggghhh"
+                android:background="#bff082"
+                android:layout_below="@+id/main_event_image"/>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

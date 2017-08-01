@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/vk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        card_view:cardBackgroundColor="#fff"
+        card_view:cardElevation="8dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_margin="3dp"
+                android:layout_width="100dp"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/photo_vk"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvtg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Himanshu Sharma"
+                    android:textColor="#000"
+                    android:textSize="22sp"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:id="@+id/tvth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Computer Science and Engineering"
+                    android:textColor="#000"
+                    android:textSize="15sp"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:id="@+id/tvti"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="NIT Jamshedpur"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:id="@+id/ph6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Mob : "
+                    android:textColor="#020bb1"
+                    android:textSize="18dip"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:id="@+id/em6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:paddingBottom="10dip"
+                    android:text="Email : "
+                    android:textColor="#020bb1"
+                    android:textSize="18dip"
+                    android:typeface="sans" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

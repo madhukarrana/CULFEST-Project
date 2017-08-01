@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<defaultsMap>
+    <entry>
+        <key>reminder_button</key>
+        <value>true</value>
+    </entry>
+    <entry>
+        <key>schedlue_view</key>
+        <value>truee</value>
+    </entry>
+
+</defaultsMap>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Culfest</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <integer name="swing_anim_time">750</integer>
+    <string name="date">10th - 12th Feb</string>
+
+</resources>
